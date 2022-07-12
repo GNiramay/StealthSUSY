@@ -1,6 +1,7 @@
 # StealthSUSY
 Code to process flat ntuples produced using TreeMaker
 
+### Note: Please make folders named PDF, ROOT_IN manually. This repo ignores all the pdf and root files, hence these folders did not get added in the repo.
 The SUSY samples were generated at Fermilab CMS LPC cluster, following the instructions given at [Dr. Kenichi's twiki page](https://twiki.cern.ch/twiki/bin/viewauth/CMS/SUSYPrivateMCNoteKH). The specific commands can be found by clicking on "Show" button in the section " Private MC production info "
 
 The program files generated using TTree.MakeClass() were modified to do the analysis.
