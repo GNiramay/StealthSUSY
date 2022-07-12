@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# Things specific to my analysis
+*.pdf
+*.png
+*.root
+*.log
