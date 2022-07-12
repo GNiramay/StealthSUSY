@@ -16,7 +16,7 @@ The program files generated using TTree.MakeClass() were modified to do the anal
 3. **PreSelection.C**: This file defines the following functions of `PreSelection` class
    * `Loop()`: The function that loops over all the events. This is the place where the histograms are filled.
    * `BookHistogram(TString ofroot)`: Opens the output root file, defines the histogram handles
-   * `SortPt(vector<TLorentzVector>* tv)`: The function arranges TLorentzVecots according to their Pt in descending order.
+   * `SortPt(vector<TLorentzVector>* tv)`: The function arranges TLorentzVectors according to their Pt in descending order.
    * `MakePDF(TString outkey)`: The function to create PDFs of the histograms.
 4. **CommonFunctions.h**: A library of commonly used functions. This defines
    * A string list of particles normally used.
